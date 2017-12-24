@@ -54,7 +54,7 @@ def get_occupation(data, hometown)
     contestants_array.each do |contestant|
       if contestant["hometown"] == hometown
         person = contestant["occupation"
-          person
+        return  person
       end
     end
   end
